@@ -1,1 +1,14 @@
+username varchar(10)
+password int
 
+
+start
+prompt for username
+get username
+prompt for password
+get password 
+if username & password match
+display "access granted"
+else 
+display "access denied"
+stop
