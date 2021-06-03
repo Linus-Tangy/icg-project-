@@ -1,6 +1,19 @@
+FUNCTION
+Start
+     prompt username
+     get username
+     prompt password
+     get password
+stop
+username()
+password()
+[if password and username match
+ then "access granted" Else
+  "access denied"]
+  
+  
 
-
-
+PSEUDO-CODE
 start
 prompt for username
 get username
