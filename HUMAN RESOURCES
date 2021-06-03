@@ -17,6 +17,27 @@ calculateSalary(hours_worked, hour_rate){
 return salary
 }
 
+
+
+PSEUDO CODE
+Start
+declare employee;
+set employee to first_employee;
+while(employee exists is true)
+   set hours=worked_hours(employee,last period);
+   if hours>40
+       set overtime=hours-40;
+   else
+       set overtime=0;
+   set hours=hours+overtime*1.5;
+   set salary=hourly_rate(employee,hour)*hours;
+   print_cheque(employee,salary);
+   set employee to next_employee;
+endif
+End
+
+
+
 	
  
 
