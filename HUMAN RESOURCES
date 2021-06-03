@@ -1,5 +1,24 @@
 
+emp_name (string)
+hours_worked (int)
+salary (int)
+hour_rate (int)
 
+start
+	prompt for emp_name, hours_worked, hour_rate
+	get emp_name, hours_worked, hour_rate
+	calculateSalary(hours_worked, hour_rate)
+	Display emp_name ", gets" salary
+end
+
+
+calculateSalary(hours_worked, hour_rate){
+	salary = hours worked * hour_rate
+return salary
+}
+
+	
+ 
 
 
 
