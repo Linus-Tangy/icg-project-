@@ -1,4 +1,20 @@
-
+Pseudo-code
+Start
+    Customer's_ID="" 
+    Customer's_Name=""
+    Customer's_Address=""
+    Customer's_Partnership=0
+    
+  enter customer's_ID
+  enter customer's_Name
+  enter customer's_Address
+      Display "customer's details"
+      If(customer's_partnership>=1 year)THEN  
+         "get 5% discount"
+    Else
+        "No discount"
+EndIf
+End
 
 
 
