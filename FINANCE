@@ -1,12 +1,26 @@
 Pseudo-code
 
 start
-   enter customer's_accont
-   register under customer's details
-    Display "transaction"
-    confirm transaction
-   print invoice
+   prompt for customers account_number
+   get account_number
+   prompt for products_ordered
+   get products_ordered
+   prompt for quantity
+   get quantity
+   prompt for price
+   get price
+   totalPrice = quantity * price
+   Display totalPrice
+   checkOut(totalPrice)
 End    
+
+
+checkOut(totalPrice, account_number){
+   Read balance for account_number
+   balance = balance - totalPrice
+   generate receipt
+   print reciept
+return}
 
 
 
