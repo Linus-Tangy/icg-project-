@@ -1,18 +1,29 @@
+Function
+Start
+  discount()
+  Prompt price
+  Get price
+  return discount
+Stop 
+[For customer's partnership>=1 year discount_given = 5% Do
+5/100*price, as price]
+     
 Pseudo-code
 Start
-    Customer's_ID="" 
-    Customer's_Name=""
-    Customer's_Address=""
-    Customer's_Partnership=0
+    Customer's_ID = "" 
+    Customer's_Name = ""
+    Customer's_Address = ""
+    Customer's_Partnership = 0
+    Discount_Given = 0
     
   enter customer's_ID
   enter customer's_Name
   enter customer's_Address
       Display "customer's details"
       If(customer's_partnership>=1 year)THEN  
-         "get 5% discount"
+         "Discount_Given = 5%"
     Else
-        "No discount"
+        "Discount_Given = 0"
 EndIf
 End
 
