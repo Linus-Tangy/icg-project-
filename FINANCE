@@ -1,0 +1,14 @@
+Pseudo-code
+
+start
+   enter customer's_accont
+   register under customer's details
+    Display "transaction"
+    confirm transaction
+   print invoice
+End   
+
+
+
+
+
